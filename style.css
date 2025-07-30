@@ -3,8 +3,9 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    border: 1px solid  rgb(17, 63, 63);
-    background-color: cadetblue;
+    border: 1px solid  rgb(77, 219, 219);
+    background-color: rgb(167, 196, 201);
+    border-radius: 10px;
 
    
 }
@@ -17,3 +18,25 @@
     text-decoration: none;
     color: black;
 }
+.container{
+    background-color: bisque;
+    width: 500px;
+    height: 300px;
+    float: right;
+    border: 2px solid coral; 
+    padding: 10px; 
+    border-radius: 30px;
+    margin: 20px 10px;
+    flex-wrap: wrap;
+}
+.container-2{
+    float: left;
+    background-color: cornflowerblue;
+    width: 500px;
+    height: 300px;
+    border: 2px solid rgb(170, 143, 35);
+    padding: 10px;
+    border-radius: 20px;
+   margin: 20px 10px;
+}
+
